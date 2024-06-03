@@ -7,3 +7,5 @@ document.addEventListener('DOMContentLoaded', function() {
     document.getElementById('tabs-number').innerText = tabCount;
   });
 });
+
+chrome.action.setBadgeText({text: "10+"}); 

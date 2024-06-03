@@ -5,8 +5,10 @@
     "version": "1.0",
     "permissions": [
       "activeTab",
-      "tabs"
+      "tabs",
+      "storage"
     ],
+    "options_page": "options.html",
     "action": {
       "default_popup": "ext.html",
       "default_icon": "ext.png"
