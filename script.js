@@ -8,4 +8,8 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 });
 
-chrome.action.setBadgeText({text: "10+"}); 
+chrome.action.setBadgeText({text: tabCount.toString()}); 
+
+if (reminder <=  tabCount) {
+  chrome.action.setBadgeBackgroundColor({color: "#953553"});
+}
